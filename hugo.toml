@@ -9,6 +9,10 @@ intro = "DataOps Engineer"
 description = "Exploring the intersections of DevOps and Data"
 authorimage = "headshot.jpg"
 
+[params.social]
+github = "cagroleau"
+linkedin = "cagroleau"
+
 [[menu.main]]
 name = "posts"
 weight = 100
