@@ -10,7 +10,7 @@ title = "About Me"
 showpagemeta = false
 +++
 
-Software Engineering runs in my family. My dad was a Sonarman in the Navy in the 70s and 80s when computers were beginning to be installed on Navy ships. As an avid reader and lifelong learner, my dad knew quite a bit about a lot of things, so when the sailors who were meant to work on the computers didn't know how to troubleshoot the new equipment, dad stepped in and was able to quickly learn how the computer worked based on his experience in other electronic systems. As a reward of a job well done, dad's commanding officer then asked him to write the manual for the device.
+Software Engineering runs in my family. My dad was a Sonarman in the Navy in the 70s and 80s when computers were beginning to be installed on Navy ships. As an avid reader and lifelong learner, my dad knew quite a bit about a lot of things, so when the sailors who were meant to work on the computers didn't know how to troubleshoot the new equipment, dad stepped in and was able to quickly learn how the computer worked based on his experience in other electronic systems. As a reward for a job well done, dad's commanding officer then asked him to write the manual for the device.
 
 Before I was in school, dad taught me how to read and do math, so when I started, even in private school I was way ahead of my class. I read books and taught myself to stay ahead, with a particular interest in science. By middle school I was reading books on quantum mechanics and astrophysics from names like Stephen Hawking and Brian Greene. My dream job was to be a particle physicist. I asked my dad teach me some programming, and I started using Ubuntu and built a website to host some of my favorite songs.
 
