@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Sep 2025 20:56:53 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fail Fast, Fail Forward</title>
+      <link>http://localhost:1313/posts/fail-fast/</link>
+      <pubDate>Wed, 17 Sep 2025 20:56:53 -0400</pubDate>
+      <guid>http://localhost:1313/posts/fail-fast/</guid>
+      <description>&lt;h1 id=&#34;fail-fast-fail-forward&#34;&gt;Fail Fast, Fail Forward&lt;/h1&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a ubiquitous mantra in modern software development. Why does it capture so much attention? Say anything that flips conventional thought on it&amp;rsquo;s head and it&amp;rsquo;s bound to make people stop and think. You mean failure can actually be good?&lt;/p&gt;&#xA;&lt;p&gt;Of course the reality is quite a bit more nuanced than that. Obviously you can&amp;rsquo;t go writing bad code directly on the production server in the name of developer velocity and expect it to go well. &lt;em&gt;Fail Fast, Fail Forward&lt;/em&gt; only works when solid DevOps practices are in place to greatly reduce the impact of and improve time to recovery for failures. And let&amp;rsquo;s not forget that &amp;ldquo;failing forward&amp;rdquo; is meant to remind us that processes should also be in place to ensure that failures always result in improvement. Ideally the same failure should never happen twice.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

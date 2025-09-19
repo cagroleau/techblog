@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+        
+
+        <title>
+              My New Hugo Site - Fail Fast, Fail Forward 
+        </title>
+
+        <meta name="generator" content="Hugo 0.150.0">
+
+        
+
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/main.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="theme-color" content="#ffffff"></head>
+
+    <body lang="en-us">
+        <div class="container my-auto">
+
+<header class="text-start title">
+  <h1 class="title">Fail Fast, Fail Forward</h1>
+</header>
+
+<section id="category-pane" class="meta">
+  
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-start meta">
+       PUBLISHED ON SEP 17, 2025
+      
+      / 2 MIN READ
+      
+    </h6>
+  </div>
+  
+</section>
+
+<section id="content-pane">
+  <div class="text-justify content">
+    
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#infrastructure-as-code-iac">Infrastructure As Code (IAC)</a></li>
+    <li><a href="#continuous-integration">Continuous Integration</a></li>
+    <li><a href="#continuous-deployment">Continuous Deployment</a></li>
+  </ul>
+</nav>
+    
+    <h1 id="fail-fast-fail-forward">Fail Fast, Fail Forward</h1>
+<p>It&rsquo;s a ubiquitous mantra in modern software development. Why does it capture so much attention? Say anything that flips conventional thought on it&rsquo;s head and it&rsquo;s bound to make people stop and think. You mean failure can actually be good?</p>
+<p>Of course the reality is quite a bit more nuanced than that. Obviously you can&rsquo;t go writing bad code directly on the production server in the name of developer velocity and expect it to go well. <em>Fail Fast, Fail Forward</em> only works when solid DevOps practices are in place to greatly reduce the impact of and improve time to recovery for failures. And let&rsquo;s not forget that &ldquo;failing forward&rdquo; is meant to remind us that processes should also be in place to ensure that failures always result in improvement. Ideally the same failure should never happen twice.</p>
+<p>Let&rsquo;s talk about some of the DevOps practices that allow a fail fast strategy to work. This won&rsquo;t be an exhaustive list, but I aim to cover most of the foundational concepts.</p>
+<h2 id="infrastructure-as-code-iac">Infrastructure As Code (IAC)</h2>
+<p>If your important infrastructure like Kubernetes Clusters and Servers has been conjured into existance by way of &ldquo;ClickOps,&rdquo; or in otherwords, configured directly in your cloud provider&rsquo;s console, you&rsquo;re going to have a hard time reproducing that asset quickly and accurately in the case of a catastrophic failure. Terraform and Ansible among others are fantastic tools which allow you to write code which defines your infrastructure. Just like any other code it can be checked into version control, allowing you to quickly revert the state of an asset to a previous point in time, or even redeploy critical infrastructure to a new region if one of your cloud provider&rsquo;s datacenters goes down (which definitely never happens).</p>
+<h2 id="continuous-integration">Continuous Integration</h2>
+<p>Possibly the most talked about concept in DevOps is CI/CD, of which the first step is Continuous Integration. It&rsquo;s not so much about fast recovery from failure as it is preventing mistakes in the first place. CI is automation that takes your code from commit to artifact. It should run your tests, lint, compile, build, and theoretically catch most code problems before they get deployed. Continuous Integration is also about fast developer feedback cycles, also know as &ldquo;left shift testing.&rdquo; If failures here are silent or obscured amongst walls of terminal logs, it&rsquo;s not helping developers fail fast. The idea is to make code problems known as quickly as possible, so that developers can keep developing, rather than stare at a pipeline wondering why it didn&rsquo;t work.</p>
+<h2 id="continuous-deployment">Continuous Deployment</h2>
+<p>The other side of CI/CD is Continuous Deployment. This is automation that takes code from artifact to running on infrastructure, that may mean not only deploying the application, but application dependencies as well, databases, cashes, networking, and so on.</p>
+<p><em>This article is a work in progress</em></p>
+
+  </div>
+</section>
+
+<section id="tag-pane" class="meta">
+  
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-end meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+<section id="menu-pane" class="menu text-center">
+  
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      
+      
+
+      <li class="menu-item">
+        
+        <a class="menu-item" href="/posts">posts</a>
+        
+      </li>
+
+      
+      
+    </ul>
+  </nav>
+  
+  <h4 class="text-center mt-3"><a class="menu-item" href="http://localhost:1313/">home</a></h4>
+</section>
+
+<footer class="text-center footer">
+  <hr />
+  
+
+</footer>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/js/custom.js"></script>
+</body>
+
+</html>
+

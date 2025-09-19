@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'goa'
+
+[params]
+author = "Chris Groleau"
+intro = "DataOps Engineer"
+description = "Exploring the intersections of DevOps and Data"
+authorimage = "headshot.jpg"
+
+[[menu.main]]
+name = "posts"
+weight = 100
+identifier = "posts"
+url = "posts/"
+
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "about/"
