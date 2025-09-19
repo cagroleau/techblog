@@ -9,11 +9,11 @@
     <lastBuildDate>Thu, 19 Dec 2024 12:00:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 19 Dec 2024 12:00:00 -0500</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Write your about me content here. You can include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Your background and experience&lt;/li&gt;&#xA;&lt;li&gt;What you do as a DataOps Engineer&lt;/li&gt;&#xA;&lt;li&gt;Your interests and projects&lt;/li&gt;&#xA;&lt;li&gt;How you explore the intersections of DevOps and Data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is written in Markdown, so you can use &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, links, lists, and other formatting as needed.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Software Engineering runs in my family. My dad was a Sonarman in the Navy in the 70s and 80s when computers were beginning to be installed on Navy ships. As an avid reader and lifelong learner, my dad knew quite a bit about a lot of things, so when the sailors who were meant to work on the computers didn&amp;rsquo;t know how to troubleshoot the new equipment, dad stepped in and was able to quickly learn how the computer worked based on his experience in other electronic systems. As a reward of a job well done, dad&amp;rsquo;s commanding officer then asked him to write the manual for the device.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
